@@ -1,3 +1,5 @@
+//Business Logic-----------
+
 function Ticket (holderAge, showTime, premierStatus) {
   this.holderAge = holderAge;
   this.showTime = showTime;
@@ -18,3 +20,9 @@ Ticket.prototype.assignAgePrice = function () {
     return ticketPrice;
   }
 }
+
+//User Interface Logic-----------------
+
+$(document).ready(function() {
+  
+});
